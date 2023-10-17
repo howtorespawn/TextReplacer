@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #4169e1;
+}
+.main-body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 3rem;
+}
+textarea{
+    width: 90vw;
+    height: 30vh;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(165, 187, 206);
+}
+button{
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: outset;
+    border-radius: 10px;
+    background-color: #dfdfdf;
+}
+#textvalue:focus{
+    background-color: #d8e2ff;
+}
